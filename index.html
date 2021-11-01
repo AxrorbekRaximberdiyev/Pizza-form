@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imtihon maket</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <div class="container py-5 wrapper">
+        <h1 class="display-5">Pitsa buyurtma qilish</h1>
+        <div class="row ">
+            <div class="col-8 one">
+                <form class="pizza-list-form" id="pizza-form" action="https://echo.htmlacademy.ru" method="post">
+
+                    <div class="one-form">
+                        <h2 class="display-5">Noni qanday bo'lsin?</h2>
+                        <select class="form-control col-5 select-js" name="select" id="">
+                            <option value="yupqa">yupqa</option>
+                            <option value="standart">standart</option>
+                            <option value="qalin">qalin</option>
+                        </select>
+                    </div>
+
+                    <div class="two-form mt-5">
+                        <h2 class="display-5">Kattaligi</h2>
+                    </div>
+
+                    <div class="three-form mt-5">
+                        <h2 class="display-5">Ustiga nima solaylik?</h2>
+                    </div>
+
+                    <div class="four-form mt-5">
+                        <h2 class="display-5">Qo'shimchalar</h2>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-4"> 
+                <div class="block-one">
+                    <span> <b>Non: </b> </span> <span class="result-select"></span>
+                </div>
+                <div class="block-two">
+                    <span><b>Kattaligi: </b></span> <span class="result-radio"></span>
+                </div>
+                <div class="block-three">
+                    <span><b>Ustida: </b></span>
+                    <ol class="pizza-list"></ol>
+                </div>
+                <div class="block
+                -four">
+                    <span><b>Qo'shimcha: </b></span>
+                    <ol class="extra-list"></ol>
+                </div>
+
+                <button class="btn btn-outline-danger mt-3" form="pizza-form" type="submit">Buyurtma berish</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

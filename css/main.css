@@ -1,0 +1,90 @@
+* {
+    color: indigo;
+    font-weight: 800;
+    font-family: monospace;
+}
+body {
+    background-color: rgb(56, 56, 56);
+}
+.wrapper {
+    margin-top: 5px;
+    /* margin-bottom: 30px; */
+    background-color: #fff;
+    border-radius: 5px;
+}
+input {
+    cursor: pointer;
+}
+h1 {
+    color: green;
+    text-align: center;
+    margin-bottom: 30px;
+}
+b {
+    color: red;
+}
+h2 {
+    color: indigo;
+}
+.one {
+    border-right: 1.5px solid #c9c7c7;
+}
+.block-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block-two {
+    margin-bottom: 20px;
+}
+
+.circle-label {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s linear;
+}
+.circle-label:hover {
+    background-color: indigo;
+    color: white;
+}
+.circle-label:active {
+    background-color: #1c022e;
+    color: white;
+}
+.radio-input {
+    display: none;
+}
+.div-flex {
+    display: inline-block;
+    margin-left: 45px;
+}
+.div-flex:nth-child(2) {
+    margin-left: 0;
+}
+.checkbox-input {
+    display: inline-block;
+    width: 34%;
+}
+ol {
+    padding-left: 17px;
+}
+form {
+    padding-left: 50px;
+}
+.block-three {
+    /* margin-top: 140px; */
+}
+.block-four {
+
+}
+.extra-checkbox-input {
+    width: 34%;
+}
+
+
+
+
